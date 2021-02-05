@@ -12,6 +12,7 @@ public class WelcomeController {
 	public String showLoginPage(ModelMap model) {
 		model.put("name", "in28Minutes");
 		System.out.println("*****This is the welcome controller");
+		System.out.println("*****");
 		return "welcome";
 	}
 
