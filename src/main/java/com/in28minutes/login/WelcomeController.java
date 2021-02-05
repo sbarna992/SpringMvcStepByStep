@@ -11,6 +11,7 @@ public class WelcomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String showLoginPage(ModelMap model) {
 		model.put("name", "in28Minutes");
+		System.out.println("*****This is the welcome controller");
 		return "welcome";
 	}
 
